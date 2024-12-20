@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Persian Time Widget</title>
+    <title>Persian</title>
     <style>
         body {
             margin: 0;
@@ -11,28 +11,13 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background: #191919;
             font-family: 'Arial', sans-serif;
-            background-color: var(--background-color, #191919);
-            color: var(--text-color, #333);
-            transition: background-color 0.3s, color 0.3s;
         }
         .time-widget {
             font-size: 48px;
             font-weight: bold;
-        }
-
-        /* Light mode defaults */
-        :root {
-            --background-color: #191919;
-            --text-color: #333;
-        }
-
-        /* Dark mode styles */
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --background-color: #191919;
-                --text-color: #f0f0f0;
-            }
+            color: #333;
         }
     </style>
 </head>
